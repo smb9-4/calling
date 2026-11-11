@@ -1,0 +1,21 @@
+{
+  "name": "private-student-parent-calling-system",
+  "version": "1.0.0",
+  "description": "Secure, private, internet-based WebRTC voice calling system for students and parents",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:server": "npm --prefix server run build",
+    "build:client": "npm --prefix client run build",
+    "test:server": "npm --prefix server run test"
+  },
+  "keywords": [
+    "webrtc",
+    "socketio",
+    "voice-calling",
+    "student-parent-portal"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
